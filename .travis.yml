@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: bqhxdOZZC1jdXT9Du5UEZrqXQNnNYmhFAMgP7UuyZx7Uwe4NiTfLGodzc8++K/RzmJfCCsWfwYpkAPCDuMbqj3y8eLqkUncTFmoscxcEQkjFDbFpw3ci9RN00AKtAFv8ilz22ZLpLCN4aX5pBQKI5vQjP9//t03gcKOMU5kyr/G57mNBT1nw19fllfzV1BoIPtYPTWX1bvk7Uf5M96XLk7M7ltpBImoFQw9Bh2wobkhEelyBE7NkUJgUcblozZbGNm5Voaus828cuZD9/751azkOT/qDAA4fTm8j02U9QRcpdSpUkmbD7/C5Gr33yp8m1uva+WxzQNOsJrimdO+FmWgADj9GZfaleYQc/cuYlfe6TaHzqe3zqEWvyzEoVUmNBnwZBBgQM1HFTMiZpjoTMlwMX2NtyfXYMeRDGtr0Rlhv4cNgZM9ZaL9v29eOh153wu7n7/Tm1Hj4ubxPmWWI/fS5zaHqBDWwD9ZCDisjbNufxuD9BXP60/N1vj5kl5VL6VNHNPAaBJ5uY2AwspyI3gc9j0eUPxACWtbGKHuOwqD6JkqtXCvVFgI0+8eWLUISJokr+35ctt+HB22prhzvt8HIIqb3yft69CbCH2g33XFIxH26fDv4+3yW3K4AD6naupDGFOkt5vV4Psy0bTNRdpdvA7bcz5F0+y7OF5zfiQw=
+  app: quiet-castle-96772
+  on:
+    repo: angemiklos/node-shopping-list-integration-tests
