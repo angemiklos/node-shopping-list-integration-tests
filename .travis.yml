@@ -4,5 +4,6 @@ deploy:
   provider: heroku
   api_key: 189338b5-4f4e-4342-a3e6-420cdb021b59
   app: quiet-castle-96772
+  skip_cleanup: true
   on:
     repo: angemiklos/node-shopping-list-integration-tests
