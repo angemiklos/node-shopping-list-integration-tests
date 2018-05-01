@@ -2,8 +2,8 @@ language: node_js
 node_js: node
 deploy:
   provider: heroku
-  api_key: 189338b5-4f4e-4342-a3e6-420cdb021b59
+  api_key:
+    secure: RCHzNiEG3C10Xj7ABrrDT9gpWtD34rcw+lrCS77gLKwRyRweqM2HkPXYLaHse59+UvXmGF0LfsSO3pcc94jCH+r3tity85I+0/rP/m7UKYeLGMTLtAAyxAlsRozDETuvfClkqLp3VfkGC7E/uuyRdrS7whk/JXXZzhyiCmn4jEHMnyhgUDt5ZrvEYdxT3x144jCblwI+OCXMnTqXZ1RwBtudafdD0OQbzOU4gSDz7rNCYHzPCSlQehReT58PPyLoVvSw6OjB4gPaSu09BCCs5x54ifPGC9LGrRzhVAIU08PuGnn+t+ieymzPGhLlqQ9KL0WmWj7hYjR28by7chdu4L2sYcKkJiwdxqnc5VArtgo0MdCXC8uyM3DPoggwey3aL1+G77H6SH16HGNdESwQQhg0+mU8UDcclcxBL9pGgMg6by03qk2xez8laY/OoGrz1u3G8LH+3XeEgkG0ZWYPdUU/rDEEXUYLMli+hh4Uei1J/0jLi3QPXuPuMsD4r1FQ06Em5ESNiW4tRfqkF3Bf9DJDw+Y1TPwr4KCic0gRtqPBntUbGkj7rkL2zMmBbceBhxN1aZcg2P+4Qa5j4U/k3J1yB3oWEYPBt5fkuXERw6dgVokX/dS+QjgWBW5OBFHYP66L5hqnHJvQjiBr8l+uAq51JI8lX8KQffF2xpoRqws=
   app: quiet-castle-96772
-  skip_cleanup: true
   on:
     repo: angemiklos/node-shopping-list-integration-tests
